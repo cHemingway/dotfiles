@@ -1,0 +1,14 @@
+{
+    "editor.rulers": [80,120],
+    "terminal.integrated.fontFamily": "DroidSansMono Nerd Font Mono",
+    "git.autofetch": true,
+    "editor.fontFamily": "'DroidSansMono Nerd Font', 'monospace', monospace, 'Droid Sans Fallback'",
+    "python.condaPath": "/home/chris/anaconda3/condabin/conda",
+    "python.diagnostics.sourceMapsEnabled": false,
+    // See https://github.com/pytorch/pytorch/issues/701#issuecomment-438215838
+    "python.linting.pylintArgs": [
+        "--errors-only",
+        "--generated-members=numpy.* ,torch.* ,cv2.* , cv.*, Variable"
+    ],
+    "python.dataScience.sendSelectionToInteractiveWindow": false
+}
